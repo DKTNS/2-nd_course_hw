@@ -1,0 +1,15 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+
+    .footer {
+        &__content {
+            display: flex;
+            row-gap: 32px;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+}
