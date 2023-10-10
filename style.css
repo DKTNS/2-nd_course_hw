@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Roboto", "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #000915;
 }
 
@@ -54,6 +54,7 @@ body {
 .header__button {
   border-radius: 30px;
   background: #9C0332;
+  text-decoration: none;
 }
 .header__button-text {
   padding-top: 13px;
@@ -80,22 +81,25 @@ body {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
 }
 .footer__img-left {
-  background-image: url(img/photo_left.jpg);
+  background-image: url("img/photo_left.jpg");
   border-radius: 16px;
   width: 379px;
   height: 300px;
+  text-decoration: none;
 }
 .footer__img-center {
   background-image: url(img/photo_center.jpg);
   border-radius: 16px;
   width: 379px;
   height: 300px;
+  text-decoration: none;
 }
 .footer__img-right {
   background-image: url(img/photo_right.jpg);
   border-radius: 16px;
   width: 379px;
   height: 300px;
+  text-decoration: none;
 }
 .footer__img-text {
   font-size: 24px;
