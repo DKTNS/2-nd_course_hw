@@ -1,5 +1,5 @@
 // Task 1 
-let x = 10;
+let x = 10; //update
 alert(x);
 x = 20;
 alert(x);
@@ -12,7 +12,7 @@ alert(yearReleaseIphone);
 let creatorOfJavaScript = 'Брендан Айк';
 alert(creatorOfJavaScript);
 
-// Task 4 
+//Task 4 
 let c = 10;
 let d = 2;
 let summ = c + d;
