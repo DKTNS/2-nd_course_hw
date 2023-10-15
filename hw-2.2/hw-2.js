@@ -1,18 +1,15 @@
 // Task 1 
-let x;
-x = 10;
+let x = 10;
 alert(x);
 x = 20;
 alert(x);
 
 //  Task 2 
-let yearReleaseIphone;
-yearReleaseIphone = 'Год выпуска первого iPhone - 2007г.';
+const yearReleaseIphone = 'Год выпуска первого iPhone - 2007г.';
 alert(yearReleaseIphone);
 
 //  Task 3 
-let creatorOfJavaScript;
-creatorOfJavaScript = 'Брендан Айк';
+let creatorOfJavaScript = 'Брендан Айк';
 alert(creatorOfJavaScript);
 
 // Task 4 
@@ -62,7 +59,7 @@ user.cityOfResidence = false;
 //Task 9.3
 delete user.cityOfResidence;
 //Task 9.4
-user.info = prompt("Какую информацию хотите узнать о пользователе?");
+let info = prompt('Какую информацию хотите узнать о пользователе?');
 alert(user.info);
 
 //Task 10
