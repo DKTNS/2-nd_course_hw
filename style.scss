@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Roboto', 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: #000915;
 }
 
@@ -60,7 +60,7 @@ body {
     &__button {
         border-radius: 30px;
         background: #9C0332;
-
+        text-decoration: none;
         &-text {
             padding-top: 13px;
             padding-bottom: 13px;
@@ -71,6 +71,7 @@ body {
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+
         }
     }
 }
@@ -90,17 +91,19 @@ body {
         background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
 
         &-left {
-            background-image: url(img/photo_left.jpg);
-            border-radius: $footer-border-img;
-            width: 379px;
-            height: 300px;
-        }
+        background-image: url('img/photo_left.jpg');
+        border-radius: $footer-border-img;
+        width: 379px;
+        height: 300px;
+        text-decoration: none;
+        } 
 
         &-center {
             background-image: url(img/photo_center.jpg);
             border-radius: $footer-border-img;
             width: 379px;
             height: 300px;
+            text-decoration: none;
         }
 
         &-right {
@@ -108,6 +111,9 @@ body {
             border-radius: $footer-border-img;
             width: 379px;
             height: 300px;
+            text-decoration: none;
+
+            
         }
 
         &-text {
@@ -120,6 +126,7 @@ body {
             padding-left: 32px;
             padding-bottom: 32px;
             padding-top: 236px;
+
         }
     }
 
