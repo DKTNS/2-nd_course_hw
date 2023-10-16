@@ -110,9 +110,10 @@ body {
             height: 300px;
             text-decoration: none;
             transition: 100ms;
+
             &:hover {
                 border: 3px solid #44D2FF;
-               transform: scale(1.01);
+                transform: scale(1.01);
             }
         }
 
@@ -123,9 +124,10 @@ body {
             height: 300px;
             text-decoration: none;
             transition: 100ms;
+
             &:hover {
                 border: 3px solid #44D2FF;
-               transform: scale(1.01);
+                transform: scale(1.01);
             }
         }
 
@@ -136,9 +138,10 @@ body {
             height: 300px;
             text-decoration: none;
             transition: 100ms;
+
             &:hover {
                 border: 3px solid #44D2FF;
-               transform: scale(1.01);
+                transform: scale(1.01);
             }
 
         }
@@ -158,7 +161,7 @@ body {
 
 }
 
-/* 
+
 .sectioncenter {
     &__uptext {
         font-size: 48px;
@@ -175,7 +178,7 @@ body {
         font-style: normal;
         font-weight: 300;
         line-height: 32px;
-        
+
         color: $font-color-white;
         margin-top: 32px;
         margin-bottom: 44px;
@@ -193,6 +196,11 @@ body {
         border-radius: 30px;
         background: #9C0332;
         text-decoration: none;
+        cursor: url("img/clarity_cursor-hand-line.svg"), auto;
+
+        &:hover {
+            background: #EB443F;
+        }
 
         &-text {
             padding-top: 13px;
@@ -207,7 +215,36 @@ body {
 
         }
     }
-} */
+
+
+}
+
+.content {
+
+    &__box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 233px;
+
+    }
+}
+
+.downcontent {
+    
+    &__box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-around;
+        padding-top: 239px;
+        padding-bottom: 239px;
+
+
+    }
+}
 
 @import 'App/tablet';
 @import 'App/mobile';

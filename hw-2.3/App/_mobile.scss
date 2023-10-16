@@ -5,7 +5,6 @@
     }
 
     .header {
-        align-items: center;
 
         &__content {
             word-break: break-all;
@@ -46,6 +45,66 @@
         &__content {
             display: flex;
             justify-content: center;
+        }
+    }
+
+    .sectioncenter {
+        padding-bottom: 64px;
+        &__right {
+            width: max(344px);
+        }
+
+        &__leftimg {
+            width: max(344px);
+        }
+
+        &__uptext {
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            word-break: break-all;
+            text-align: center;
+        }
+
+        &__midtext {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+            word-break: break-all;
+            text-align: center;
+            /* 157.143% */
+            &-bold {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 22px;
+                word-break: break-all;
+                text-align: center;
+            }
+        }
+
+        &__button {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .content {
+        &__box {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 0;
+        }
+    }
+
+    .downcontent {
+        &__box {
+            display: flex;
+            justify-content: center;
+            padding-top: 85px;
+            flex-direction: column-reverse;
         }
     }
 }
