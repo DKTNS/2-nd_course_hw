@@ -217,9 +217,6 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .header__content {
-    /* word-break: break-all; */
-  }
   .header__uptext {
     font-size: 32px;
     font-style: normal;
