@@ -7,8 +7,8 @@
     .header {
 
         &__content {
-            word-break: break-all;
-            text-align: center;
+            /* word-break: break-all; */
+            
         }
 
         &__uptext {
@@ -16,6 +16,7 @@
             font-style: normal;
             font-weight: 700;
             line-height: normal;
+            text-align: center;
         }
 
         &__midtext {
@@ -23,6 +24,7 @@
             font-style: normal;
             font-weight: 300;
             line-height: 22px;
+            text-align: center;
 
             /* 157.143% */
             &-bold {
@@ -47,6 +49,17 @@
             display: flex;
             justify-content: center;
         }
+        &__img{
+            &-left{
+                width: max(343px);
+            }
+            &-center{
+                width: max(343px);
+            }
+            &-right{
+                width: max(343px);
+            }
+        }
     }
 
     .sectioncenter {
@@ -64,7 +77,6 @@
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            word-break: break-all;
             text-align: center;
         }
 
@@ -73,7 +85,6 @@
             font-style: normal;
             font-weight: 300;
             line-height: 22px;
-            word-break: break-all;
             text-align: center;
             /* 157.143% */
             &-bold {
@@ -81,7 +92,6 @@
                 font-style: normal;
                 font-weight: 700;
                 line-height: 22px;
-                word-break: break-all;
                 text-align: center;
             }
         }
