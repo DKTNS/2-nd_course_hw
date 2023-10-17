@@ -287,6 +287,8 @@ body {
   .sectioncenter__button {
     display: flex;
     justify-content: center;
+    /* margin-left: 70px;
+    margin-right: 70px; */
   }
   .content__box {
     display: flex;
