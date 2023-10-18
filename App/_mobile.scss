@@ -1,0 +1,118 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+
+        &__uptext {
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-align: center;
+        }
+
+        &__midtext {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: center;
+
+            /* 157.143% */
+            &-bold {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 22px;
+            }
+        }
+
+        &__button-mob {
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+
+    .sectionup {
+        display: flex;
+
+        &__content {
+            display: flex;
+            justify-content: center;
+        }
+        &__img{
+            &-left{
+                width: max(343px);
+            }
+            &-center{
+                width: max(343px);
+            }
+            &-right{
+                width: max(343px);
+            }
+        }
+    }
+
+    .sectioncenter {
+        padding-bottom: 64px;
+        &__right {
+            width: max(344px);
+        }
+
+        &__leftimg {
+            width: max(344px);
+        }
+
+        &__uptext {
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-align: center;
+        }
+
+        &__midtext {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: center;
+            /* 157.143% */
+            &-bold {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 22px;
+                text-align: center;
+            }
+        }
+
+        &__button {
+            display: flex;
+            justify-content: center;
+            /* margin-left: 70px;
+            margin-right: 70px; */
+        }
+    }
+
+    .content {
+        &__box {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 0;
+        }
+    }
+
+    .downcontent {
+        &__box {
+            display: flex;
+            justify-content: center;
+            padding-top: 85px;
+            flex-direction: column-reverse;
+        }
+    }
+}
