@@ -215,6 +215,80 @@ body {
 
 }
 
+.sectiondown__box {
+
+    background-image: url(img/sectiondown_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.sectiontdown__gradient {
+    background-color: linear-gradient(180deg, #000915 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.00) -7.35%, #000915 100%), url(<path-to-image>), lightgray 50% / cover no-repeat, #000915;
+}
+.sectiontdown {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 32px;
+    padding-bottom: 288px;
+    padding-top: 276px;
+
+    &__uptext {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: $font-color-white;
+        text-align: center;
+    }
+
+    &__midtext {
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        text-align: center;
+        color: $font-color-white;
+        margin-top: 32px;
+        margin-bottom: 44px;
+
+        &-bold {
+            color: $font-color-white;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 32px;
+        }
+    }
+
+    &__button {
+        border-radius: 30px;
+        background: #9C0332;
+        text-decoration: none;
+        padding-bottom: 493px;
+        cursor: url("img/clarity_cursor-hand-line.svg"), auto;
+
+        &-text {
+            padding-top: 13px;
+            padding-bottom: 13px;
+            padding-left: 74px;
+            padding-right: 74px;
+            color: $font-color-white;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+        }
+
+        &:hover {
+            background: #EB443F;
+        }
+    }
+}
+
 .content {
 
     &__box {
@@ -228,7 +302,7 @@ body {
 }
 
 .downcontent {
-    
+
     &__box {
         display: flex;
         flex-direction: row;
@@ -241,6 +315,24 @@ body {
 
     }
 }
-
+.footer {
+    &__upline{
+        border-top: rgba(184, 212, 255, 0.20);
+        background-image: url(img/Line_footer.jpg);
+        opacity: 20%;
+        height: 1px;
+    }
+    &__text{
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 32px;
+            text-align: center;
+            color: $font-color-white;
+            padding-top: 35px;
+            padding-bottom: 35px;
+            opacity: 100%;
+    }
+}
 @import 'App/tablet';
 @import 'App/mobile';

@@ -178,6 +178,73 @@ body {
   line-height: normal;
 }
 
+.sectiondown__box {
+  background-image: url(img/sectiondown_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.sectiontdown__gradient {
+  background-color: linear-gradient(180deg, #000915 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(<path-to-image>), lightgray 50%/cover no-repeat, #000915;
+}
+
+.sectiontdown {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 32px;
+  padding-bottom: 288px;
+  padding-top: 276px;
+}
+.sectiontdown__uptext {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  text-align: center;
+}
+.sectiontdown__midtext {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  margin-top: 32px;
+  margin-bottom: 44px;
+}
+.sectiontdown__midtext-bold {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.sectiontdown__button {
+  border-radius: 30px;
+  background: #9C0332;
+  text-decoration: none;
+  padding-bottom: 493px;
+  cursor: url("img/clarity_cursor-hand-line.svg"), auto;
+}
+.sectiontdown__button-text {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 74px;
+  padding-right: 74px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sectiontdown__button:hover {
+  background: #EB443F;
+}
+
 .content__box {
   display: flex;
   flex-direction: row;
@@ -194,6 +261,24 @@ body {
   align-content: space-around;
   padding-top: 239px;
   padding-bottom: 239px;
+}
+
+.footer__upline {
+  border-top: rgba(184, 212, 255, 0.2);
+  background-image: url(img/Line_footer.jpg);
+  opacity: 20%;
+  height: 1px;
+}
+.footer__text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  opacity: 100%;
 }
 
 @media (max-width: 1024px) {

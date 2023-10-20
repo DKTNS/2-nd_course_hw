@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
+    <script src="App/game.js"></script>
     <title>Базовый JS</title>
 </head>
 
@@ -37,7 +38,7 @@
 
         <div class="">
             <div class="sectionup__content">
-                <a href="#" class="sectionup__img-left">
+                <a href="" class="sectionup__img-left" onclick="monthNumber();">
                     <p class="sectionup__img-text">Игра 1</p>
                 </a>
                 <a href="#" class="sectionup__img-center">
@@ -53,7 +54,8 @@
                 <div class="sectioncenter__left">
                     <p class="sectioncenter__uptext">Времена года</p>
                     <p class="sectioncenter__uptext">на мой сайт !</p>
-                    <p class="sectioncenter__midtext">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится
+                    <p class="sectioncenter__midtext">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы
+                        узнаете к какому времени года он относится
                     </p>
                 </div>
                 <div class="header__button-mob">
@@ -79,10 +81,35 @@
                     </a>
                 </div>
             </div>
-
+        </div>
+        <div class="sectiondown__box sectiondown__gradient center">
+            <div class="sectiontdown">
+                <div class="sectiontdown__right">
+                    <p class="sectiontdown__uptext">Игра в загадки</p>
+                    <p class="sectiontdown__midtext">
+                        Компьютер загадывает загадку,
+                        вам необходимо ее угадать, если вы дадите не правильный ответ,
+                        то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.
+                    </p>
+                </div>
+                <div class="sectiontdown__button-mob">
+                    <a href="#" class="sectioncenter__button sectioncenter__button-text">
+                        Играть
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-    </div>
+    <footer>
+        <div class="footer__upline">
+        </div>
+            <div class="footer__box">
+                <p class="footer__text">
+                    Все права защищены
+                </p>
+            </div>
+
+    </footer>
 </body>
 
 </html>
