@@ -35,27 +35,20 @@ squareNumber();
 returnSquareNumber();
 
 //Task 4
-let f = prompt('Сколько тебе лет');
-let limitationAge;
-if (f < 0) {
-    limitationAge = function () {
-        alert('Вы ввели неправильное значение');
-    }
-} else if (0 <= f <= 12) {
-    limitationAge = function () {
-        alert('Привет, друг!');
-
-    }
-} else if (f >= 13) {
-    limitationAge = function () {
-        alert('Добро пожаловать!');
+let howAge = prompt('Сколько тебе лет');
+function fixAge(howAge) {
+    if (howAge < 0) {
+           return 'Вы ввели неправильное значение';
+    } else if (howAge >=0 && howAge <= 12) {
+            return 'Привет, друг!';
+    } else {
+            return 'Добро пожаловать!';
     }
 }
-limitationAge();
+alert(fixAge(howAge));
 
 //Task 5
 function trueIntNumber() {
-    while (true) {
         let firstIntNumber = prompt('Введите первое число');
         let lastIntNumber = prompt('Введите второе число');
         if (!firstIntNumber, !lastIntNumber) {
@@ -63,7 +56,6 @@ function trueIntNumber() {
         } else {
             return (firstIntNumber * lastIntNumber);
         }
-    }
 }
 trueIntNumber();
 
@@ -85,20 +77,18 @@ backNumber();
 
 //Task 7
 function getArea() {
-    return this.p * this.radius ** 2;
+    return Math.PI * this.radius ** 2;
 }
 function getPerimeter() {
-    return 2 * this.radius * this.p;
+    return 2 * this.radius * Math.PI;
 }
 
 const circle1 = {
-    p: 3.14,
     radius: 10,
     getCircleleArea: getArea,
     getirclelePerimeter: getPerimeter,
 };
 const circle2 = {
-    p: 3.14,
     radius: 14,
     getCircleleArea: getArea,
     getirclelePerimeter: getPerimeter,
