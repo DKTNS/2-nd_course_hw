@@ -159,6 +159,7 @@ body {
 }
 .sectioncenter__button {
   border-radius: 30px;
+  border: none;
   background: #9C0332;
   text-decoration: none;
   cursor: url("img/clarity_cursor-hand-line.svg"), auto;
