@@ -1,5 +1,5 @@
 function randFruit() {
-    const arrFruit = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    let arrFruit = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
     arrFruit = arrFruit.sort(() => Math.random() - 0.5);
     alert(arrFruit);
     let firstFruit = prompt('Чему равнялся первый элемент массива?');

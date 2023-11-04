@@ -3,14 +3,13 @@ const mstr = 'js';
 console.log(mstr.toUpperCase());
 
 //Task 2
-/* const arr = ['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко';
-function strArr(arr) {
-    for (let i = 0; i < arr.length; i++){
-
-    }
+function filterString(array, startStr) {
+ return array.filter((item) => 
+ item.toLowerCase().startWith(startStr.toLowerCase())
+ );
 }
 const strArr = (String) => String.map(d => d.length);
-console.log(toUpperCase(String)); */
+console.log(toUpperCase(String));
 
 //Task 3
 const fract = 32.58884;
@@ -21,9 +20,10 @@ const multiNumbs = [52, 53, 49, 77, 21, 32];
 console.log(Math.min(...multiNumbs), Math.max(...multiNumbs));
 
 //Task 5
-function randNumb(min, max) {
-    return Math.floor(Math.random());
-} console.log(randNumb(0, 10));
+function randNumb() {
+    console.log(Math.floor(Math.random() * 10) + 1);
+}
+randNumb();
 
 //Task 6
 function randArrNumb(a = Number(prompt('Enter number'))) {
@@ -56,7 +56,7 @@ function futureDate(currentDate) {
     currentDate.setDate(currentDate.getDate() + 73);
     return currentDate;
 }
-console.log(currentDate);
+console.log(futureDate(todayDate()));
 
 //Task 10
 function formatDate(dt) {
